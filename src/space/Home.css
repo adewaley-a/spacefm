@@ -1,0 +1,140 @@
+/*.homecov{
+ background: url("space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg") ;
+ 
+ background-size: 100% 100%;
+
+}*/
+.homebg{
+   position: absolute;  
+   left: 0%;
+   z-index: -1;
+   width: 100%;
+   height: 100%;
+}
+.mobilebg{
+    display: none;
+}
+.card{
+    width: 71.5%;
+    height: 40%;
+    
+    position: absolute;
+    left: 15%;
+    top: 34.9%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.cards{
+    width: 100%;
+    height: 100%;
+  
+}
+.fisrt{
+    
+}
+.text1{  margin-top: 32px;
+    color: rgb(216, 214, 249);
+    font-family: barlow;
+    letter-spacing: 5px;
+    font-size: larger;
+    margin-bottom: 14px;
+}
+.text2{
+    color:rgb(255, 255, 255) ;
+    font-family: bellefair regular;
+    font-size: 750%;
+    margin-bottom: 21px;
+ 
+}
+
+.text3{
+    color:rgb(216, 214, 249) ;
+    line-height: 26px;
+    font-size: 86.7%;
+    width: 80%;
+    font-family: calibri;
+}
+.circle{
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 105px;
+    line-height: 220px;
+    text-align: center;
+    margin-top: 59%;
+    font-family: bellefair;
+    font-size: 170%;
+    margin-right: 20px;
+}
+.circle:hover{
+   box-shadow: 0px -1.7px 0px 76px  rgba(218, 218, 218, 0.174);
+}
+#second{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media(max-width:576px){
+
+    .homebg{
+       display: none;
+     }
+     .mobilebg{
+         display: block;
+         position: absolute;
+         left: 0%;
+         width: 100%;
+         height: 100%;
+     }
+     .card{
+         width: 80%;
+         height: 30%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         gap: 1.6em;
+         margin: auto;
+         left: 12.8%;
+     }
+     .text1{  margin-top: 0px;
+        color: rgb(216, 214, 249);
+        font-family: barlow;
+        letter-spacing: 3.7px;
+        font-size: 92%;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+    .text2{
+        color:rgb(255, 255, 255) ;
+        font-family: bellefair regular;
+        font-size: 480%;
+        margin-bottom: 21px;
+        text-align: center;
+    }
+    .text3{
+        color:rgb(216, 214, 249) ;
+        line-height: 26px;
+        font-size: 79.7%;
+        width: 96%;
+        text-align: center;
+    }
+    .circle{
+        width: 160px;
+        height: 160px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 80px;
+        line-height: 160px;
+        text-align: center;
+        
+        font-family: bellefair;
+        font-size: 130%;
+        
+    }
+    .circle:hover{
+       box-shadow: 0px -1.7px 0px 76px  rgba(218, 218, 218, 0.174);
+    }
+    #second{
+        display: flex;
+        justify-content:center;
+    }
+}

@@ -1,0 +1,101 @@
+.techbg{
+    position: absolute;  
+    left: 0%;
+    z-index: -3;
+    width: 100%;
+    height: 100%;
+    
+}
+.techmobile{
+    display: none;
+}
+.tblock{
+    height: fit-content;
+
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    top: 24.5%;
+    display: flex;
+    font-family: barlow;
+    font-size: x-large;
+    font-weight: 400;
+    color: white;
+    gap: 0.6em;
+    letter-spacing: 3.1px;
+    padding-left: 14.6%;
+    z-index: -1;
+}
+#tun{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgba(250, 235, 215, 0.342);
+    letter-spacing: 1px;
+}
+
+.circlink{
+    width: 100%;
+    height: 40%;
+    
+    position: absolute;
+    left: 14.5%;
+    top: 42%;
+   /* display: grid;
+    grid-template-columns: repeat(1,3fr);*/
+    display: flex;
+    flex-direction: column;
+    gap: 1.4em;
+}
+.circlinks{
+    height: 70px;
+    width: 70px;
+    border: 1.3px solid rgba(255, 255, 255, 0.493);
+    border-radius: 35px;
+    color: white;
+    font-family: bellefair;
+    font-size: x-large;
+    line-height: 70px;
+    text-align: center;
+}
+
+
+@media(max-width:576px){
+    .techbg{
+        display: none;
+    }
+    .techmobile{
+        display: block; position: absolute;  
+        left: 0%;
+        z-index: -3;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+    .tblock{
+        font-size: medium;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 0%;
+        top: 14%;
+    }
+    .circlink{
+        flex-direction: row;
+        left: 0%;
+        justify-content: center;
+        top: 49%;
+        gap: 1em;
+    }
+    .circlinks{
+        height: 42px;
+        width: 42px;
+        border: 1.3px solid rgba(255, 255, 255, 0.493);
+        border-radius: 21px;
+        color: white;
+        font-family: bellefair;
+        font-size: large;
+        line-height: 42px;
+        text-align: center;
+        
+    }
+}

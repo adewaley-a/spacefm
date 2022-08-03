@@ -1,0 +1,98 @@
+.pcard{
+    display: flex;
+    width: 74%;
+    height: 64%;
+    
+    position: absolute;
+    left: 25.7%;
+    top: 31.3%;
+}
+.pcards{
+    width: 100%;
+    height: 100%;
+ 
+}
+.ppic{
+    width: 85%;
+    height: 100%;
+    margin-left: 15%;
+}
+.p1{color: rgb(228, 228, 255);
+    font-family: barlow;
+    font-size: 110%;
+    letter-spacing: 2px;
+    margin-top: 12%;
+}
+.p2{
+    color: white;
+    font-family: bellefair;
+    font-size: 290%;
+    margin-top: 2%;
+}
+.p3{
+    color: rgb(220, 220, 255);
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 90%;
+    line-height: 28px;
+    margin-top: 5.3%;
+    width: 74%;
+}
+.pcov2{
+    display: none;
+}
+.pmobile{
+    display: none;
+}
+
+@media(max-width:576px){
+    .pcard{
+        display: none;
+    }
+    .pcov2{
+        display: block;
+    }
+    .pmobile{
+       display: block;
+       width: 100%;
+       position: absolute;
+       left: 0%;
+       top: 20%;
+    }
+    .pun{
+        color: rgb(218, 218, 255);
+        position: absolute;
+       left: 0%;
+       top: 58.8%;
+       font-family: barlow;
+       text-align: center;
+       width: 100%;
+       letter-spacing: 2px;
+       font-size: 94%;
+    }
+    .pdeux{
+        color: white;
+        position: absolute;
+        left: 0%;
+        top: 62.6%;
+        font-family: bellefair;
+        text-align: center;
+        width: 100%;
+        font-size: 150%;
+    }
+    .ptrois{
+        color: rgb(211, 211, 255);
+        position: absolute;
+        left: 0%;
+        top: 70%;
+        font-family: arial;
+        font-size: 90%;
+        line-height: 25px;
+        text-align: center;
+        width: 90%;
+        left: 5%;
+        
+        
+    }
+   
+}

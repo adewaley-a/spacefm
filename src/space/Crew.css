@@ -1,0 +1,105 @@
+
+.crewbg{
+    position: absolute;
+    left: 0%;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.crewmobile{
+    display: none;
+}
+.cblock{
+    height: fit-content;
+
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    top: 24.5%;
+    display: flex;
+    font-family: barlow;
+    font-size: x-large;
+    font-weight: 400;
+    color: white;
+    gap: 0.6em;
+    letter-spacing: 3.1px;
+    padding-left: 14.6%;
+    z-index: -1;
+}
+#cun{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgba(250, 235, 215, 0.342);
+    letter-spacing: 1px;
+}
+.crewcir{
+    width: 10%;
+    height: 4%;
+    position: absolute;
+    left: 15%;
+    top: 84.7%;
+    display: flex;
+    gap: 1.2em;
+    z-index: 9999;
+}
+.crewcircle{
+    height: 18px;
+    width: 18px;
+    background-color: rgba(255, 255, 255, 0.363);
+    
+    border-radius: 9px;
+   
+   
+}
+.swiper{
+    display: none;
+}
+
+
+@media(max-width:576px){
+    .crewmobile{
+        position: absolute;
+        left: 0%;
+        display: block;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+    .crewbg{
+        display: none;
+    }
+    .cblock{
+        width: 100%;
+        padding-left: 0%;
+        display: flex;
+        justify-content: center;
+        font-size: 120%;
+        top: 13%;
+    }
+    .crewcir{
+        display: none;
+    }
+    /*.swiper{
+     width: 100px;
+     height: 300px;
+     display: flex;
+     border: 1px solid red;
+     position: absolute;
+    }
+    .swiper-wrapper{
+       color: white;
+       position: absolute;
+       width: 100px;
+     height: 300px;
+    }
+    .swiper-slide{
+        position: absolute;
+        width: 100px;
+     height: 300px;
+    }
+    .swiper-pagination{
+        width: 100px;
+     height: 300px;
+    }*/
+}

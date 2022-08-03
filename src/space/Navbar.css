@@ -1,0 +1,148 @@
+
+
+.navcover{
+    width: fit-content;
+    height:100px;
+    width: 99.8%;
+    display: flex;
+    z-index: 9999999999999999;
+    
+    
+}
+.logo{
+    width:15% ;
+}
+.line{width: 31%;
+    height: 2.3%;
+    margin: auto;
+    background-color: rgba(240, 248, 255, 0.288);
+    
+}
+.list{
+    width: 54%;
+    display: flex;
+    padding-left: 30px;
+    height: 70%;
+    background-color: rgba(240, 248, 255, 0.137);
+    line-height: 70px;
+    margin: auto;
+    -webkit-backdrop-filter: blur(70px);
+    font-family: barlow;
+    letter-spacing: 1.6px;
+}
+.lis{
+    display: flex;
+    margin-left: 50px;
+   
+    color: rgb(216, 214, 249);
+    gap: 0.3em;
+}
+.liser{
+    display: flex;
+    margin-left: 50px;
+   border-bottom: solid red;
+    color: rgb(216, 214, 249);
+    gap: 0.3em;
+}
+.lis:hover{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.418);
+    transition: all 0.5s ;
+}
+.num{
+    color: white;
+    font-family: sans-serif;
+    
+}
+.logo{
+  margin: auto;
+ display: flex;
+ justify-content: center;
+}
+.menu{
+    display: none;
+}
+.modalbox{
+    height: 100%;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.144);
+    position: absolute;
+    margin-left: -69.9%;
+    -webkit-backdrop-filter: blur(20px);
+    z-index: 9999999999999;
+    animation: cold linear 0.2s;
+}
+@keyframes cold {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.close{
+    margin-left: 79%;
+    margin-bottom: 100px;
+    margin-top: 33px;
+}
+.sub{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 0.5em;
+    color:rgb(255,255,255) ;
+    margin-left: 26px;
+    font-family: barlow;
+    font-size:120%;
+}
+.num2{
+    color: white;
+    font-family: sans-serif;
+    padding-top: 1.2%;
+}
+.modalcov{
+    display: none;
+}
+
+@media(max-width:576px){
+    .menu{
+        display: block;
+        z-index: 3;
+    }
+    .lis{
+        display:none ;
+    }
+    .list{
+        background-color: rgba(240, 248, 255, 0);
+        -webkit-backdrop-filter: blur(0px);
+     
+     display: flex;
+    }
+    .ham{
+        margin-left:14px ;
+    }
+    .line{
+        width: 165%;
+        background-color: rgba(240, 248, 255, 0);
+    }
+    .sl{
+        margin-left: 31px;
+        display: block;
+        height: 42px;
+        width: 42px;
+        animation: rotary linear infinite 5s;
+    }
+    @keyframes rotary {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    .logo{
+        display: block;
+        z-index: 9999999;
+    }
+    .modalcov{
+        display: block;
+    }
+}
