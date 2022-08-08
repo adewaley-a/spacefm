@@ -1,5 +1,4 @@
 
-
 .navcover{
     width: fit-content;
     height:100px;
@@ -11,6 +10,7 @@
 }
 .logo{
     width:15% ;
+    
 }
 .line{width: 31%;
     height: 2.3%;
@@ -26,14 +26,14 @@
     background-color: rgba(240, 248, 255, 0.137);
     line-height: 70px;
     margin: auto;
-    -webkit-backdrop-filter: blur(70px);
     font-family: barlow;
     letter-spacing: 1.6px;
 }
 .lis{
     display: flex;
     margin-left: 50px;
-   
+    filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
     color: rgb(216, 214, 249);
     gap: 0.3em;
 }
@@ -64,10 +64,10 @@
 .modalbox{
     height: 100%;
     width: 70%;
-    background-color: rgba(255, 255, 255, 0.144);
+    background-color: rgba(0, 0, 0, 0.918);
     position: absolute;
     margin-left: -69.9%;
-    -webkit-backdrop-filter: blur(20px);
+   
     z-index: 9999999999999;
     animation: cold linear 0.2s;
 }
@@ -112,7 +112,8 @@
     }
     .list{
         background-color: rgba(240, 248, 255, 0);
-        -webkit-backdrop-filter: blur(0px);
+      
+       
      
      display: flex;
     }

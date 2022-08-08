@@ -55,7 +55,8 @@ const Navbar = () =>{
       <div className="navcover">
         <div className="logo"><img src={spacelogo} className="sl"/></div>
         <div className="line"></div>
-        <div className="list">
+     
+        <div  className="list">
           
            {show?<div className="menu"><img src={menu} onClick={()=>setShow(!show)} className="ham"/></div>:null}
             <div ref={home} className="lis"><Link to="/" style={{textDecoration:"none"}}><div className="num">00</div></Link><Link to="/" style={{textDecoration:"none", color:'white'}}>HOME</Link></div>

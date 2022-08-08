@@ -78,6 +78,7 @@
 
     .homebg{
        display: none;
+       position: fixed;
      }
      .mobilebg{
          display: block;
