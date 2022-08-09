@@ -41,7 +41,7 @@
 }
 .text2{
     color:rgb(255, 255, 255) ;
-    font-family: bellefair regular;
+    font-family: bellefair;
     font-size: 750%;
     margin-bottom: 21px;
  
@@ -108,7 +108,7 @@
     }
     .text2{
         color:rgb(255, 255, 255) ;
-        font-family: bellefair regular;
+        font-family: bellefair;
         font-size: 440%;
         margin-bottom: 21px;
         text-align: center;
@@ -127,7 +127,7 @@
         border-radius: 75px;
         line-height: 150px;
         text-align: center;
-        margin-top: 30%;
+        margin-top: 69%;
         font-family: bellefair;
         font-size: 122%;
         

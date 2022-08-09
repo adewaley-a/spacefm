@@ -23,7 +23,7 @@
     font-family: barlow;
     font-size: 110%;
     letter-spacing: 2px;
-    margin-top: 12%;
+    margin-top: 16%;
 }
 .launch2{
     color: white;
@@ -51,6 +51,9 @@
     }
     .launchcov2{
         display: block;
+    }
+    .launch1{
+       
     }
     .launchmobile{
        display: block;
