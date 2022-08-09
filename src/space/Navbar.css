@@ -95,10 +95,10 @@
 }
 .num2{
     color: white;
-    font-family: sans-serif;
+    font-family: barlow;
     padding-top: 1.2%;
     font-weight: 900;
-    margin-top: -2.4%;
+    margin-top: -1.2%;
 }
 .modalcov{
     display: none;
@@ -132,7 +132,7 @@
         display: block;
         height: 42px;
         width: 42px;
-        animation: rotary linear infinite 5s;
+        animation: rotary linear infinite 6s;
     }
     @keyframes rotary {
         from{
