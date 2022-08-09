@@ -91,14 +91,15 @@
     color:rgb(221, 221, 221) ;
     margin-left: 26px;
     font-family: barlow;
-    font-size:120%;
+    font-size:109%;
 }
 .num2{
     color: white;
     font-family: barlow;
     padding-top: 1.2%;
     font-weight: 900;
-    margin-top: -1.2%;
+    margin-top: -1.9%;
+    font-size: 120%;
 }
 .modalcov{
     display: none;
